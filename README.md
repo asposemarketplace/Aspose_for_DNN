@@ -26,9 +26,9 @@
         <h2>Where to download?</h2>
         <p>You can download the template from one of the following locations</p>
         <ul>
+            <li><a href="http://store.dnnsoftware.com/home/product-details/aspose-dotnetnuke-module-development-template">DNN Store</a></li>
             <li><a href="https://github.com/asposemarketplace/Aspose_for_DotNetNuke/releases/tag/1.0">GitHub</a></li>
             <li><a href="http://asposednn.codeplex.com/">Codeplex</a></li>
-            <li><a href="http://store.dnnsoftware.com/home/product-details/aspose-dotnetnuke-module-development-template">DNN Store</a></li>
         </ul>
         <p>&nbsp;</p>
         <h2>How to Install the Aspose DotNetNuke Project Templates?</h2>
