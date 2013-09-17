@@ -1,4 +1,4 @@
-Aspose_for_DotNetNuke
+Aspose DotNetNuke Module Development Template
 =====================
 
 Aspose for DotNetNuke marketplace plugin.
