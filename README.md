@@ -199,4 +199,3 @@
             </tbody>
         </table>
     </div>
-    <div class="ClearBoth"></div>
