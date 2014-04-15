@@ -1,0 +1,15 @@
+﻿<h3>Aspose Content Export</h3>
+<p class="Contributor">
+	
+	Aspose DotNetNuke Content Export module allow users to export online content into Word or Pdf document using Aspose.Words.
+	<br />
+	This is an initial release demostrating the use of few powerful features of Aspose.Words. Please check <a href="http://www.aspose.com/blogs/index.php">our blogs</a> for further updates.
+	
+	If you have any questions please feel free to contact us via <a href="mailto:marketplace@aspose.com">marketplace@aspose.com</a><br />
+	<a href=http://www.aspose.com>Aspose</a> - Your File Format APIs<br />
+</p>
+<hr/>
+<div class="License">
+	<h3>About the Aspose Content Export Module</h3>
+	<p>Aspose DotNetNuke Content Export module allow users to export online content into Word or Pdf document using Aspose.Words. This module makes it very easy and simple to have an offline copy of your favorite online content for editing, sharing and printing etc. in popular Doc or Pdf format. It adds  simple ‘Export to Word’ and ‘Export to Pdf’ buttons at any desired location on the page and clicking it dynamically exports the content of the page to a Word or Pdf document and then automatically downloads the file to the disk location selected by the user in just couple of seconds.</p>	
+</div>
