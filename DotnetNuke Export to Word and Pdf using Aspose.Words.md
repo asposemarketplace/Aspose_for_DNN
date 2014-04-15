@@ -1,3 +1,4 @@
+<div class="wikidoc">
 <div>
 <h2>DotnetNuke Export to Word and Pdf using Aspose.Words</h2>
 <p>Aspose DotNetNuke Content Export Module allow users to export online content into Word or Pdf document using
@@ -33,4 +34,8 @@ this module installation video</a> from DotNetNuke for more details</p>
 </li></ol>
 <p>You have successfully added ‘Aspose DotNetNuke Content Export’ to your page. Two buttons titled ‘Export to Word’ and ‘Export to Pdf’ will now appear on the page. Anyone can simply click on either of these buttons and export
  the content of the page into a Word or Pdf document.</p>
+</div>
+<h2>Video</h2>
+<p>Please check the video below to see it in action.</p>
+<p><a href="https://www.youtube.com/watch?v=ZlXqg47l0N0">https://www.youtube.com/watch?v=ZlXqg47l0N0</a></p>
 </div>
