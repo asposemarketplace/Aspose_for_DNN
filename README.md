@@ -1,45 +1,20 @@
 <div class="WikiContent" id="WikiContent">
     <div class="wikidoc">
-        <p>
-            Aspose DotNetNuke Module Development Template provides a quick and easy to use Module development template for DotNetNuke 7+ with ability to automatically download selected Aspose components and seamlessly adding them to your DotNetNuke module project on
- the fly.
-        </p>
-        <p>Aspose DotNetNuke Module Development Template includes the following features</p>
-        <ul>
-            <li>Supports Visual Studio 2010 and Visual Studio 2012
-                <br>
-                <br>
-                <img alt="" src="http://cdn.aspose.com/Images/marketplace/dnn/aspose-dnn-supports-vs2010-and-vs2012.png">&nbsp;
-            </li>
-            <li>Create DotNetNuke module for C# or VB.NET </li>
-            <li>Create DotNetNuke module with new DAL2 data access layer available in DotNetNuke 7 for C# or VB.NET<br>
-                <br>
-                <img alt="" src="http://cdn.aspose.com/Images/marketplace/dnn/aspose-dnn-create-project-csharp.png">
-            </li>
-            <li>Select one or more Aspose components during module creation </li>
-            <li>The latest version of each selected Aspose components will automatically be downloaded and referenced in your module.<br>
-                <br>
-                <img alt="" src="http://cdn.aspose.com/Images/marketplace/dnn/aspose-dnn-select-aspose-components.png">
-            </li>
-        </ul>
-        <p>&nbsp;</p>
-        <h2>Where to download?</h2>
-        <p>You can download the template from one of the following locations</p>
-        <ul>
-            <li><a href="http://store.dnnsoftware.com/home/product-details/aspose-dotnetnuke-module-development-template">DNN Store</a></li>
-            <li><a href="https://github.com/asposemarketplace/Aspose_for_DotNetNuke/releases/tag/1.0">GitHub</a></li>
-            <li><a href="http://asposednn.codeplex.com/">Codeplex</a></li>
-        </ul>
-        <p>&nbsp;</p>
-        <h2>How to Install the Aspose DotNetNuke Project Templates?</h2>
-        <p>
-            Please <a href="http://www.aspose.com/blogs/aspose-business/news-release/archive/2013/09/05/aspose-dotnetnuke-module-development-template.html">check our blog post</a> for installation instructions
-        </p>
-        <p><a href="http://www.aspose.com/blogs/aspose-business/news-release/archive/2013/09/05/aspose-dotnetnuke-module-development-template.html">http://www.aspose.com/blogs/aspose-business/news-release/archive/2013/09/05/aspose-dotnetnuke-module-development-template.html</a></p>
-        <ol>
-        </ol>
-        <ol>
-        </ol>
+		
+		<h3>What is DotNetNuke?</h3>
+<p>DotNetNuke also called DNN is an open source and free CMS (content management system) based on the .NET framework. DNN allows you to create unlimited number of websites, either as root websites or for portals in a parent-child configuration. It is enriched with common CMS features like dynamic page creation, Skinning, Searching and custom module developement. Here are the projects we have created for this popular open source platform</p>
+<ol>
+<li>
+<h3><a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20DotNetNuke%20Module%20Development%20Template.md">Aspose DotNetNuke Module Development Template</a></h3>
+Aspose DotNetNuke Module Development Template provides a quick and easy to use Module development template for DotNetNuke 7+ with ability to automatically download selected Aspose components and seamlessly adding them to your DotNetNuke module project on the fly ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20DotNetNuke%20Module%20Development%20Template.md"> Continue reading &rarr;</a></li>
+<li>
+<h3><a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DotnetNuke%20Export%20to%20Word%20and%20Pdf%20using%20Aspose.Words.md">DotnetNuke Export to Word and Pdf using Aspose.Words</a></h3>
+Aspose DotNetNuke Content Export Module allow users to export online content into Word or Pdf document using <a href="http://www.aspose.com/word-component-suite.aspx">Aspose.Words</a>. This module makes it very easy and simple to have an offline copy of your favorite online content for editing, sharing and printing etc. in popular Doc or Pdf format. It adds&nbsp; simple &lsquo;Export to Word&rsquo; and &lsquo;Export to Pdf&rsquo; buttons at any desired location on the page and clicking it dynamically exports the content of the page to Word or Pdf document and then automatically downloads the file to the disk location selected by the user in just couple of seconds ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DotnetNuke%20Export%20to%20Word%20and%20Pdf%20using%20Aspose.Words.md"> Continue reading &rarr;</a></li>
+</ol>
+<p>&nbsp;</p>
+	
+	
+		<hr>
         <h2>What is the use of Aspose .NET Products?</h2>
         <p>
             <a href="http://www.aspose.com">Aspose</a> are file format experts and provide APIs and components for various file formats including MS Office, OpenOffice, PDF and Image formats. These APIs are available on a number of development platforms including .NET
