@@ -1,0 +1,19 @@
+﻿<h3>Aspose DNN Microsoft Word Import</h3>
+<p class="Contributor">
+	
+	Aspose DNN Microsoft Word Import Module allows developers to get/read contents of Microsoft Word (doc/docx) document without requiring Microsoft Office. 
+	<br />	
+	This module demonstrates very powerful Import feature provided by Aspose.Words. It adds a simple file browser control and Import from Word button on the page where the module is added, by clicking on ‘Import from Word’ button you can get the contents of your document displayed on screen immediately.
+	<br />	
+	
+	Please check <a href="http://www.aspose.com/blogs/index.php">our blogs</a> for further updates.
+	<br />	
+	
+	If you have any questions please feel free to contact us via <a href="mailto:marketplace@aspose.com">marketplace@aspose.com</a><br />
+	<a href=http://www.aspose.com>Aspose</a> - Your File Format APIs<br />
+</p>
+<hr/>
+<div class="License">
+	<h3>About the Aspose DNN Microsoft Word Import Module</h3>
+	<p>Aspose DNN Microsoft Word Import Module allows developers to get/read contents of Microsoft Word (doc/docx) document without requiring Microsoft Office. This module demonstrates very powerful Import feature provided by Aspose.Words. It adds a simple file browser control and Import from Word button on the page where the module is added, by clicking on ‘Import from Word’ button you can get the contents of your document displayed on screen immediately.</p>	
+</div>
