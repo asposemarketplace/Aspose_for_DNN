@@ -25,6 +25,15 @@
     </ol>
     <p>&nbsp;</p>
 
+    <h3>
+      <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/How%20to%20create%20DNN%20Module.md">How to create DNN module?</a>
+    </h3>
+    <p>
+      The following detailed instructions will guide you through all the steps for creating and running a DNN module ...
+      <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/How%20to%20create%20DNN%20Module.md"> Continue reading →</a>
+    </p>
+
+    <p>&nbsp;</p>
 
     <hr>
       <h2>What is the use of Aspose .NET Products?</h2>
