@@ -1,4 +1,6 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="View.ascx.cs" Inherits="Modules.Aspose.DNN.WordImport.View" %>
+﻿<%--Copyright (c) Aspose 2002-2014. All Rights Reserved.--%>
+
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="View.ascx.cs" Inherits="Modules.Aspose.DNN.WordImport.View" %>
 
 <div id="div_main">
     <br />
