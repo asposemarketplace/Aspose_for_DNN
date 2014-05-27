@@ -1,4 +1,6 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="View.ascx.cs" Inherits="Aspose.Modules.AsposeDotNetNukeContentExport.View" %>
+﻿<%--Copyright (c) Aspose 2002-2014. All Rights Reserved.--%>
+
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="View.ascx.cs" Inherits="Aspose.Modules.AsposeDotNetNukeContentExport.View" %>
 
 <div class="exportButton">
     <asp:Button ID="WordsExportButton" runat="server" Text="Export to Word" OnClick="WordsExportButton_Click" />
