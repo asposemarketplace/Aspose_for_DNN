@@ -22,6 +22,12 @@
         </h3>
         Aspose DNN Microsoft Word Import Module allows developers to get/read contents of Microsoft Word (doc/docx) document without Microsoft Office ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DNN%20Import%20from%20Microsoft%20Word%20using%20Aspose.Words.md"> Continue reading &rarr;</a>
       </li>
+	    <li>
+        <h3>
+          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DNN%20Import%20from%20PDF%20using%20Aspose.Pdf.md">DNN Import from PDF using Aspose.Pdf</a>
+        </h3>
+        Aspose DNN PDF Import Module allows developers to get/read contents of PDF document without requiring any other software such as Adobe Acrobat or PDF reader ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DNN%20Import%20from%20PDF%20using%20Aspose.Pdf.md"> Continue reading &rarr;</a>
+      </li>
     </ol>
     <p>&nbsp;</p>
 
