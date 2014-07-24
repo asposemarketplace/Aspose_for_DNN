@@ -28,6 +28,12 @@
         </h3>
         Aspose DNN PDF Import Module allows developers to get/read contents of PDF document without requiring any other software such as Adobe Acrobat or PDF reader ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DNN%20Import%20from%20PDF%20using%20Aspose.Pdf.md"> Continue reading &rarr;</a>
       </li>
+      <li>
+        <h3>
+          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DNN%20Exchange%20Sync.md">DNN Exchange Sync – 2 Way Link between DNN Users and Microsoft Exchange Server Contacts</a>
+        </h3>
+        DNN Exchange Sync is an open source module from Aspose that links your DNN users to Microsoft Exchange Server contacts without requiring any other software ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DNN%20Exchange%20Sync.md"> Continue reading &rarr;</a>
+      </li>
     </ol>
     <p>&nbsp;</p>
 
