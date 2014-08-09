@@ -6,7 +6,7 @@ using DotNetNuke.Services.Exceptions;
 using DotNetNuke.Entities.Modules;
 using DotNetNuke.Entities.Modules.Actions;
 using DotNetNuke.Services.Localization;
-
+using System.Web.UI.HtmlControls;
 using System.Collections.Generic;
 using System.Web;
 using System.Web.UI;
@@ -15,21 +15,41 @@ using System.IO;
 using System.Net;
 using System.Text;
 using Aspose.Words;
+using System.Collections;
 
 namespace Aspose.Modules.AsposeDotNetNukeContentExport
 {
+    public enum ExportType
+    {
+        None = 0,
+        Pdf = 1,
+        Word = 2
+    }
+
+
     public partial class View : AsposeDotNetNukeContentExportModuleBase, IActionable
     {
         protected void Page_Load(object sender, EventArgs e)
         {
             try
             {
-
+                if (!Page.IsPostBack)
+                    LoadPanes();
             }
             catch (Exception exc) //Module failed to load
             {
                 Exceptions.ProcessModuleLoadException(this, exc);
             }
+        }
+
+        private void LoadPanes()
+        {
+            foreach (string pane in PortalSettings.ActiveTab.Panes)
+            {
+                Control obj = (Control)DotNetNuke.Common.Globals.FindControlRecursiveDown(Page, pane);
+
+                PanesDropDownList.Items.Add(new ListItem(pane, obj.ClientID));
+            }            
         }
 
         public ModuleActionCollection ModuleActions
@@ -49,36 +69,8 @@ namespace Aspose.Modules.AsposeDotNetNukeContentExport
 
         private string GetOutputFileName(string extension)
         {
-            string name = HttpContext.Current.Request.RawUrl.Substring(HttpContext.Current.Request.RawUrl.LastIndexOf("/"));
-            name = name.Replace("/", string.Empty).Replace(".aspx", extension);
-
-            if (string.IsNullOrEmpty(name))
-            {
-                name = System.Guid.NewGuid().ToString();
-            }
-
-            if (!name.EndsWith(extension)) name = name + extension;
-
+            string name = System.Guid.NewGuid().ToString() + extension;
             return name;
-        }
-
-        private string CurrentPageURL
-        {
-            get
-            {
-                string url = Request.Url.Authority + HttpContext.Current.Request.RawUrl.ToString();
-
-                if (Request.ServerVariables["HTTPS"] == "on")
-                {
-                    url = "https://" + url;
-                }
-                else
-                {
-                    url = "http://" + url;
-                }
-
-                return url;
-            }
         }
 
         private string BaseURL
@@ -100,12 +92,15 @@ namespace Aspose.Modules.AsposeDotNetNukeContentExport
             }
         }
 
-        protected void WordsExportButton_Click(object sender, EventArgs e)
+        private void ExportContent(ExportType exportType)
         {
-            string html = new WebClient().DownloadString(CurrentPageURL);
+            string pageSource = PageSourceHiddenField.Value;
+            pageSource = "<html>" + pageSource.Replace("#g#", ">").Replace("#l#", "<") + "</html>";
+
+            pageSource = pageSource.Replace("<div class=" + "\"exportButton\"" + ">", "<div class=" + "\"exportButton\"" + "style=" + "\"display: none\"" + ">");
 
             // To make the relative image paths work, base URL must be included in head section
-            html = html.Replace("</head>", string.Format("<base href='{0}'></base></head>", BaseURL));
+            pageSource = pageSource.Replace("</head>", string.Format("<base href='{0}'></base></head>", BaseURL));
 
             // Check for license and apply if exists
             string licenseFile = Server.MapPath("~/App_Data/Aspose.Words.lic");
@@ -115,31 +110,32 @@ namespace Aspose.Modules.AsposeDotNetNukeContentExport
                 license.SetLicense(licenseFile);
             }
 
-            MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(html));
+            MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(pageSource));
             Document doc = new Document(stream);
-            doc.Save(Response, GetOutputFileName(".doc"), ContentDisposition.Inline, null);
+            string fileName = GetOutputFileName(exportType == ExportType.Word ? ".doc" : ".pdf");
+
+            doc.Save(GetPortalRootSavePath() + "\\" + fileName);
+            doc.Save(Response, fileName, ContentDisposition.Inline, null);
             Response.End();
+        }
+
+        private string GetPortalRootSavePath()
+        {
+            string rootPath = Server.MapPath(PortalSettings.HomeDirectory) + "\\" + "AsposeExport";
+            if (!Directory.Exists(rootPath))
+                Directory.CreateDirectory(rootPath);
+            return rootPath;
+        }
+
+        protected void WordsExportButton_Click(object sender, EventArgs e)
+        {
+            ExportContent(ExportType.Word);
         }
 
         protected void PdfExportButton_Click(object sender, EventArgs e)
         {
-            string html = new WebClient().DownloadString(CurrentPageURL);
-
-            // To make the relative image paths work, base URL must be included in head section
-            html = html.Replace("</head>", string.Format("<base href='{0}'></base></head>", BaseURL));
-
-            // Check for license and apply if exists
-            string licenseFile = Server.MapPath("~/App_Data/Aspose.Words.lic");
-            if (File.Exists(licenseFile))
-            {
-                License license = new License();
-                license.SetLicense(licenseFile);
-            }
-
-            MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(html));
-            Document doc = new Document(stream);
-            doc.Save(Response, GetOutputFileName(".pdf"), ContentDisposition.Inline, null);
-            Response.End();
+            ExportContent(ExportType.Pdf);
         }
+
     }
 }

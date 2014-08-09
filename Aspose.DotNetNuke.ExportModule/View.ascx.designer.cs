@@ -13,6 +13,24 @@ namespace Aspose.Modules.AsposeDotNetNukeContentExport {
     public partial class View {
         
         /// <summary>
+        /// PageSourceHiddenField control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField PageSourceHiddenField;
+        
+        /// <summary>
+        /// PanesDropDownList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList PanesDropDownList;
+        
+        /// <summary>
         /// WordsExportButton control.
         /// </summary>
         /// <remarks>

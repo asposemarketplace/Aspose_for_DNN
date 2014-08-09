@@ -1,15 +1,25 @@
 ﻿<h3>Aspose Content Export</h3>
 <p class="Contributor">
 	
-	Aspose DotNetNuke Content Export module allow users to export online content into Word or Pdf document using Aspose.Words.
+	Aspose .NET Word Processing and PDF Document Exporter for DNN module allow users to export online content into Word Processing or PDF Document using Aspose.Words.
 	<br />
-	This is an initial release demostrating the use of few powerful features of Aspose.Words. Please check <a href="http://www.aspose.com/blogs/index.php">our blogs</a> for further updates.
+	This version of the module demonstrates the use of few powerful features of Aspose.Words. Please check <a href="http://www.aspose.com/blogs/index.php">our blogs</a> for further updates.
 	
 	If you have any questions please feel free to contact us via <a href="mailto:marketplace@aspose.com">marketplace@aspose.com</a><br />
 	<a href=http://www.aspose.com>Aspose</a> - Your File Format APIs<br />
 </p>
 <hr/>
 <div class="License">
-	<h3>About the Aspose Content Export Module</h3>
-	<p>Aspose DotNetNuke Content Export module allow users to export online content into Word or Pdf document using Aspose.Words. This module makes it very easy and simple to have an offline copy of your favorite online content for editing, sharing and printing etc. in popular Doc or Pdf format. It adds  simple ‘Export to Word’ and ‘Export to Pdf’ buttons at any desired location on the page and clicking it dynamically exports the content of the page to a Word or Pdf document and then automatically downloads the file to the disk location selected by the user in just couple of seconds.</p>	
+	<h3>About the Aspose .NET Word Processing and PDF Document Exporter for DNN Module</h3>
+	<p>Aspose .NET Word Processing and PDF Document Exporter for DNN allow users to export online content into Word Processing or PDF document using Aspose.Words. It adds Export to Word and Export to Pdf buttons at any desired location on the page. Clicking a button dynamically exports the content of the page to a Word Processing or PDF document and then automatically downloads the file to the disk location selected by the user in just couple of seconds.
+	<br />
+	This version of the module provides a number of great features, including:
+	<ul>
+		<li>Get an offline copy of your favorite online content for editing, sharing and printing in the popular DOC or PDF formats.</li>
+		<li>Ability to select DNN Pane before exporting the content allows you to export only relevant area instead of exporting the whole page.</li>
+		<li>The generated Word processing document can then be opened using any Word Processing Application such as Microsoft Word or Apache OpenOffice etc.</li>
+		<li>The generated PDF document can be opened using any PDF viewer or reader.</li>
+		<li>The exported Word/PDF file is also now saved in PortalSettings.HomeDirectory\AsposeExport folder.</li>
+	</ul>
+</p>	
 </div>

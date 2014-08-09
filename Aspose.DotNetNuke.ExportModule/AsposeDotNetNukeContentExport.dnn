@@ -1,8 +1,8 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="AsposeDotNetNukeContentExport" type="Module" version="1.0.0">
-      <friendlyName>Aspose DotNetNuke Content Export</friendlyName>
-      <description>Aspose DotNetNuke Content Export module allow users to export online content into Word or Pdf document using Aspose.Words</description>
+    <package name="AsposeDotNetNukeContentExport" type="Module" version="1.0.2">
+      <friendlyName>Aspose .NET Word Processing and PDF Document Exporter for DNN</friendlyName>
+      <description>Aspose .NET Word Processing and PDF Document Exporter for DNN module allow users to export online content into Word Processing or PDF Document using Aspose.Words</description>
       <iconFile>Images/aspose_logo.gif</iconFile>
       <owner>
         <name>Aspose.com</name>
@@ -30,7 +30,6 @@
           <desktopModule>
             <moduleName>Aspose DotNetNuke Content Export</moduleName>
             <foldername>AsposeDotNetNukeContentExport</foldername>
-            <businessControllerClass>Aspose.Modules.AsposeDotNetNukeContentExport.Components.FeatureController</businessControllerClass>
             <supportedFeatures />
             <moduleDefinitions>
               <moduleDefinition>
