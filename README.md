@@ -12,7 +12,7 @@
       </li>
       <li>
         <h3>
-          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DotnetNuke%20Export%20to%20Word%20and%20Pdf%20using%20Aspose.Words.md">DotnetNuke Export to Word and Pdf using Aspose.Words</a>
+          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DotnetNuke%20Export%20to%20Word%20and%20Pdf%20using%20Aspose.Words.md">Export selected DNN Pane in Aspose .NET Word Processing and PDF Document Exporter for DNN Module</a>
         </h3>
         Aspose DotNetNuke Content Export Module allow users to export online content into Word or Pdf document using <a href="http://www.aspose.com/word-component-suite.aspx">Aspose.Words</a>. This module makes it very easy and simple to have an offline copy of your favorite online content for editing, sharing and printing etc. in popular Doc or Pdf format. It adds&nbsp; simple &lsquo;Export to Word&rsquo; and &lsquo;Export to Pdf&rsquo; buttons at any desired location on the page and clicking it dynamically exports the content of the page to Word or Pdf document and then automatically downloads the file to the disk location selected by the user in just couple of seconds ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DotnetNuke%20Export%20to%20Word%20and%20Pdf%20using%20Aspose.Words.md"> Continue reading &rarr;</a>
       </li>
