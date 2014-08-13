@@ -1,8 +1,8 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="AsposeDNNPdfImport" type="Module" version="01.00.00">
-      <friendlyName>Aspose DNN PDF Import</friendlyName>
-      <description>Aspose DNN PDF Import module allow users to import contents of PDF files using Aspose.Pdf</description>
+    <package name="AsposeDNNPdfImport" type="Module" version="01.00.01">
+      <friendlyName>Aspose .NET PDF Import for DNN</friendlyName>
+      <description>Aspose .NET PDF Import for DNN module allow users to import contents of PDF files using Aspose.Pdf</description>
       <iconFile>Images/aspose_logo.gif</iconFile>
       <owner>
         <name>Aspose.com</name>
@@ -29,13 +29,13 @@
 
         <component type="Module">
           <desktopModule>
-            <moduleName>Aspose DNN PDF Import</moduleName>
+            <moduleName>Aspose .NET PDF Import for DNN</moduleName>
             <foldername>AsposeDNNPdfImport</foldername>
             <businessControllerClass />
             <supportedFeatures />
             <moduleDefinitions>
               <moduleDefinition>
-                <friendlyName>Aspose DNN PDF Import</friendlyName>
+                <friendlyName>Aspose .NET PDF Import for DNN</friendlyName>
                 <defaultCacheTime>0</defaultCacheTime>
                 <moduleControls>
                   <moduleControl>

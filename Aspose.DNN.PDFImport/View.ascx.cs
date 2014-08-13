@@ -18,6 +18,9 @@ using DotNetNuke.Entities.Modules.Actions;
 using DotNetNuke.Services.Localization;
 using Aspose.Pdf;
 using System.IO;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using DotNetNuke.Common;
 
 namespace Aspose.Modules.AsposeDNNPdfImport
 {
@@ -27,7 +30,8 @@ namespace Aspose.Modules.AsposeDNNPdfImport
         {
             try
             {
-
+                if (!Page.IsPostBack)
+                    LoadPanes();
             }
             catch (Exception exc) //Module failed to load
             {
@@ -50,8 +54,20 @@ namespace Aspose.Modules.AsposeDNNPdfImport
             }
         }
 
+        private void LoadPanes()
+        {
+            foreach (string pane in PortalSettings.ActiveTab.Panes)
+            {
+                Control obj = (Control)DotNetNuke.Common.Globals.FindControlRecursiveDown(Page, pane);
+
+                PanesDropDownList.Items.Add(new ListItem(pane, obj.ClientID));
+            }
+        }
+
         protected void ImportButton_Click(object sender, EventArgs e)
         {
+            Control destinationControl = Globals.FindControlRecursiveDown(Page, PanesDropDownList.SelectedValue.Replace("dnn_", string.Empty));
+            
             if (ImportFileUpload.HasFile)
             {
                 // Check for license and apply if exists
@@ -69,7 +85,11 @@ namespace Aspose.Modules.AsposeDNNPdfImport
                 string path = Server.MapPath(".") + "//" + ImportFileUpload.FileName.Replace(".pdf", ".html");
                 pdfDocument.Save(path, SaveFormat.Html);
                 string extractedText = File.ReadAllText(path);
-                OutputLiteral.Text = extractedText;
+
+                if (destinationControl != null)
+                    destinationControl.Controls.Add(new LiteralControl(extractedText));
+                else
+                    OutputLiteral.Text = extractedText;
             }
             else
             {

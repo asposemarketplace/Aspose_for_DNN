@@ -1,7 +1,7 @@
-﻿<h3>Aspose DNN PDF Import</h3>
+﻿<h3>Aspose .NET PDF Import for DNN Module</h3>
 <p class="Contributor">
 	
-	Aspose DNN PDF Import Module allows developers to get/read content of PDF files without requiring any software.
+	Aspose .NET PDF Import for DNN Module allows developers to get/read content of PDF files without requiring any software.
 	<br />	
 	This module demonstrates very powerful Import feature provided by Aspose.Pdf. It adds a simple file browse control and Import from PDF button on the page where the module is added, by clicking on ‘Import from PDF’ button you can get the contents of your document displayed on screen immediately.
 	<br />	
@@ -14,6 +14,6 @@
 </p>
 <hr/>
 <div class="License">
-	<h3>About the Aspose DNN PDF Import Module</h3>
-	<p>Aspose DNN PDF Import Module allows developers to get/read content of PDF files without requiring any software. This module demonstrates very powerful Import feature provided by Aspose.Pdf. It adds a simple file browse control and Import from PDF button on the page where the module is added, by clicking on ‘Import from PDF’ button you can get the contents of your document displayed on screen immediately.</p>	
+	<h3>About the Aspose .NET PDF Import for DNN Module</h3>
+	<p>Aspose .NET PDF Import for DNN Module allows developers to get/read content of PDF files without requiring any software. This module demonstrates very powerful Import feature provided by Aspose.Pdf. It adds a simple file browse control and Import from PDF button on the page where the module is added, by clicking on ‘Import from PDF’ button you can get the contents of your document displayed on screen immediately.</p>	
 </div>

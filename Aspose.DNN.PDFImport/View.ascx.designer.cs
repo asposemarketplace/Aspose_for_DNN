@@ -31,6 +31,15 @@ namespace Aspose.Modules.AsposeDNNPdfImport {
         protected global::System.Web.UI.WebControls.FileUpload ImportFileUpload;
         
         /// <summary>
+        /// PanesDropDownList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList PanesDropDownList;
+        
+        /// <summary>
         /// ImportButton control.
         /// </summary>
         /// <remarks>
