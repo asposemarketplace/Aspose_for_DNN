@@ -12,21 +12,21 @@
       </li>
       <li>
         <h3>
-          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DotnetNuke%20Export%20to%20Word%20and%20Pdf%20using%20Aspose.Words.md">Export selected DNN Pane in Aspose .NET Word Processing and PDF Document Exporter for DNN Module</a>
+          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20.NET%20Word%20Processing%20and%20PDF%20Document%20Exporter%20for%20DNN%20Module.md">Export selected DNN Pane in Aspose .NET Word Processing and PDF Document Exporter for DNN Module</a>
         </h3>
-        Aspose DotNetNuke Content Export Module allow users to export online content into Word or Pdf document using <a href="http://www.aspose.com/word-component-suite.aspx">Aspose.Words</a>. This module makes it very easy and simple to have an offline copy of your favorite online content for editing, sharing and printing etc. in popular Doc or Pdf format. It adds&nbsp; simple &lsquo;Export to Word&rsquo; and &lsquo;Export to Pdf&rsquo; buttons at any desired location on the page and clicking it dynamically exports the content of the page to Word or Pdf document and then automatically downloads the file to the disk location selected by the user in just couple of seconds ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DotnetNuke%20Export%20to%20Word%20and%20Pdf%20using%20Aspose.Words.md"> Continue reading &rarr;</a>
+        Aspose .NET Word Processing and PDF Document Exporter for DNN allow users to export online content into Word Processing or PDF documen ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20.NET%20Word%20Processing%20and%20PDF%20Document%20Exporter%20for%20DNN%20Module.md"> Continue reading &rarr;</a>
       </li>
       <li>
         <h3>
-          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DNN%20Import%20from%20Microsoft%20Word%20using%20Aspose.Words.md">DNN Import from Microsoft Word using Aspose.Words</a>
+          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20.NET%20Word%20Import%20for%20DNN%20Module.md">Import to Selected Pane in Aspose .NET Word Import for DNN Module</a>
         </h3>
-        Aspose DNN Microsoft Word Import Module allows developers to get/read contents of Microsoft Word (doc/docx) document without Microsoft Office ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DNN%20Import%20from%20Microsoft%20Word%20using%20Aspose.Words.md"> Continue reading &rarr;</a>
+        Aspose .NET Word Import for DNN Module allows developers to get/read contents of Word document without requiring any other software such as Microsoft Word or OpenOffice ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20.NET%20Word%20Import%20for%20DNN%20Module.md"> Continue reading &rarr;</a>
       </li>
-	    <li>
+      <li>
         <h3>
-          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DNN%20Import%20from%20PDF%20using%20Aspose.Pdf.md">DNN Import from PDF using Aspose.Pdf</a>
+          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20.NET%20PDF%20Import%20for%20DNN%20Module%20.md">Import to Selected Pane in Aspose .NET PDF Import for DNN Module</a>
         </h3>
-        Aspose DNN PDF Import Module allows developers to get/read contents of PDF document without requiring any other software such as Adobe Acrobat or PDF reader ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DNN%20Import%20from%20PDF%20using%20Aspose.Pdf.md"> Continue reading &rarr;</a>
+        Aspose .NET PDF Import for DNN Module allows developers to get/read contents of PDF document without requiring any other software such as Adobe Acrobat or PDF reader ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20.NET%20PDF%20Import%20for%20DNN%20Module%20.md"> Continue reading &rarr;</a>
       </li>
       <li>
         <h3>

@@ -1,4 +1,4 @@
-<h4>Export selected DNN Pane in Aspose .NET Word Processing and PDF Document Exporter for DNN Module</h4>
+<h3>Export selected DNN Pane in Aspose .NET Word Processing and PDF Document Exporter for DNN Module</h3>
 <div>
 <p>Aspose .NET Word Processing and PDF Document Exporter for DNN allow users to export online content into Word Processing or PDF document using <a href="http://www.aspose.com/word-component-suite.aspx">Aspose.Words</a>. It adds <strong>Export to Word</strong> and <strong>Export to Pdf</strong> buttons at any desired location on the page. Clicking a button dynamically exports the content of the selected Pane to a Word Processing or PDF document and then automatically downloads the file to the disk location selected by the user in just couple of seconds.</p>
 <p style="text-align: center;"><a title="Free Download - Aspose .NET Word Processing and PDF Document Exporter for DNN" href="https://asposednn.codeplex.com/releases/view/120733"><img title="Free Download - Aspose .NET Word Processing and PDF Document Exporter for DNN" src="http://cdn.aspose.com/Images/marketplace/free-download-icon-aspose-mp.png" alt="free download icon aspose mp Export selected DNN Pane in Aspose .NET Word Processing and PDF Document Exporter for DNN Module" /></a> <a title="Video Demo - Aspose .NET Word Processing and PDF Document Exporter for DNN" href="https://www.youtube.com/watch?v=oKL40or-yX8"> <img title="Video Demo - Aspose .NET Word Processing and PDF Document Exporter for DNN" src="http://cdn.aspose.com/Images/marketplace/video-demo-icon-aspose-mp.png" alt="video demo icon aspose mp Export selected DNN Pane in Aspose .NET Word Processing and PDF Document Exporter for DNN Module" /></a><a title="Source Code - Aspose .NET Word Processing and PDF Document Exporter for DNN" href="https://asposednn.codeplex.com/SourceControl/latest#Aspose.DotNetNuke.Export/"> <img title="Source Code - Aspose .NET Word Processing and PDF Document Exporter for DNN" src="http://cdn.aspose.com/Images/marketplace/open-source-icon-aspose-mp.png" alt="open source icon aspose mp Export selected DNN Pane in Aspose .NET Word Processing and PDF Document Exporter for DNN Module" /></a></p>
@@ -45,6 +45,6 @@
 </ol></ol></ol>
 <p>You have successfully added Aspose .NET Word Processing and PDF Document Exporter for DNN module to your page. Two buttons, <strong>Export to Word</strong> and <strong>Export to Pdf</strong> and a dropdown to select DNN Pane will now appear on the page. Anyone can simply click on either of these buttons and export the content of the page into a Word Processing or PDF document.</p>
 </div>
-<h4>Video</h4>
+<h3>Video</h3>
 <p>Please check <a href="https://www.youtube.com/watch?v=oKL40or-yX8">this video</a> to see the plugin in action.</p>
-<p><iframe src="//www.youtube.com/embed/ZlXqg47l0N0?rel=0" width="560" height="315" frameborder="0" allowfullscreen=""></iframe></p>
+<p>&nbsp;</p>
