@@ -8,6 +8,10 @@ using DotNetNuke.Entities.Modules.Actions;
 using DotNetNuke.Services.Localization;
 using System.IO;
 using Aspose.Words;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using DotNetNuke.Common;
+
 
 namespace Modules.Aspose.DNN.WordImport
 {
@@ -17,7 +21,8 @@ namespace Modules.Aspose.DNN.WordImport
         {
             try
             {
-
+                if (!Page.IsPostBack)
+                    LoadPanes();
             }
             catch (Exception exc) //Module failed to load
             {
@@ -25,8 +30,20 @@ namespace Modules.Aspose.DNN.WordImport
             }
         }
 
+        private void LoadPanes()
+        {
+            foreach (string pane in PortalSettings.ActiveTab.Panes)
+            {
+                Control obj = (Control)DotNetNuke.Common.Globals.FindControlRecursiveDown(Page, pane);
+
+                PanesDropDownList.Items.Add(new ListItem(pane, obj.ClientID));
+            }
+        }
+
         protected void ImportButton_Click(object sender, EventArgs e)
         {
+            Control destinationControl = Globals.FindControlRecursiveDown(Page, PanesDropDownList.SelectedValue.Replace("dnn_", string.Empty));
+            
             if (ImportFileUpload.HasFile)
             {
                 // Check for license and apply if exists
@@ -48,8 +65,11 @@ namespace Modules.Aspose.DNN.WordImport
 
                 doc.Save(filePath, SaveFormat.Html);
                 string outputText = File.ReadAllText(filePath);
-                OutputLiteral.Text = outputText;
 
+                if (destinationControl != null)
+                    destinationControl.Controls.Add(new LiteralControl(outputText));
+                else
+                    OutputLiteral.Text = outputText;
             }
         }
 

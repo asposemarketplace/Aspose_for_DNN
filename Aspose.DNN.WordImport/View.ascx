@@ -5,10 +5,15 @@
 <div id="div_main">
     <br />
     <asp:Literal ID="OutputLiteral" runat="server"></asp:Literal>
-    <br />    
+    <br />
+    <b>Please select a Word Processing file and then click on Import from Word button below ...</b>
+    <br />
+    <br />
     <asp:FileUpload ID="ImportFileUpload" runat="server" />
     <br />
     <br />
+    <asp:DropDownList ID="PanesDropDownList" CssClass="panesDropDown" runat="server"></asp:DropDownList>
+    &nbsp;&nbsp;&nbsp;
     <asp:Button ID="ImportButton" runat="server" Text="Import from Word" OnClick="ImportButton_Click" />
     <br />
 </div>

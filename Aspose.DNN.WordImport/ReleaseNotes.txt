@@ -1,9 +1,9 @@
-﻿<h3>Aspose DNN Microsoft Word Import</h3>
+﻿<h3>Aspose .NET Word Import for DNN Module</h3>
 <p class="Contributor">
 	
-	Aspose DNN Microsoft Word Import Module allows developers to get/read contents of Microsoft Word (doc/docx) document without requiring Microsoft Office. 
+	Aspose .NET Word Import for DNN Module allows developers to get/read contents of Word document without requiring any other software such as Microsoft Word or OpenOffice.
 	<br />	
-	This module demonstrates very powerful Import feature provided by Aspose.Words. It adds a simple file browser control and Import from Word button on the page where the module is added, by clicking on ‘Import from Word’ button you can get the contents of your document displayed on screen immediately.
+	Aspose .NET Word Import for DNN Module allows developers to get/read contents of Word document without requiring any other software such as Microsoft Word or OpenOffice. This module demonstrates the powerful import feature provided by Aspose.Word. It adds a simple file browser control, Content Pane selection and Import from Word button on the page where the module is added. When clicking on the button, the document contents are displayed on the screen immediately.
 	<br />	
 	
 	Please check <a href="http://www.aspose.com/blogs/index.php">our blogs</a> for further updates.
@@ -14,6 +14,7 @@
 </p>
 <hr/>
 <div class="License">
-	<h3>About the Aspose DNN Microsoft Word Import Module</h3>
-	<p>Aspose DNN Microsoft Word Import Module allows developers to get/read contents of Microsoft Word (doc/docx) document without requiring Microsoft Office. This module demonstrates very powerful Import feature provided by Aspose.Words. It adds a simple file browser control and Import from Word button on the page where the module is added, by clicking on ‘Import from Word’ button you can get the contents of your document displayed on screen immediately.</p>	
+	<h3>About the Aspose .NET Word Import for DNN Module</h3>
+	<p>Aspose .NET Word Import for DNN Module allows developers to get/read contents of Word document without requiring any other software such as Microsoft Word or OpenOffice. This module demonstrates the powerful import feature provided by Aspose.Word. It adds a simple file browser control, Content Pane selection and Import from Word button on the page where the module is added. When clicking on the button, the document contents are displayed on the screen immediately.</p>
+</p>	
 </div>

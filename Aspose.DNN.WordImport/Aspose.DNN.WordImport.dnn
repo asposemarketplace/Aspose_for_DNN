@@ -1,8 +1,8 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="AsposeDNNWordImport" type="Module" version="01.00.00">
-      <friendlyName>Aspose DNN Microsoft Word Import</friendlyName>
-      <description>Aspose DNN Microsoft Word Import module allow users to import contents of Microsoft Word (doc/docx) documents using Aspose.Words</description>
+    <package name="AsposeDNNWordImport" type="Module" version="01.00.01">
+      <friendlyName>Aspose .NET Word Import for DNN</friendlyName>
+      <description>Aspose .NET Word Import for DNN Module allows developers to get/read contents of Word document without requiring any other software such as Microsoft Word or OpenOffice.</description>
       <iconFile>Images/aspose_logo.gif</iconFile>
       <owner>
         <name>Aspose.com</name>
@@ -29,13 +29,13 @@
 
         <component type="Module">
           <desktopModule>
-            <moduleName>Aspose DNN Microsoft Word Import</moduleName>
+            <moduleName>Aspose .NET Word Import for DNN</moduleName>
             <foldername>AsposeDNNWordImport</foldername>
             <businessControllerClass />
             <supportedFeatures />
             <moduleDefinitions>
               <moduleDefinition>
-                <friendlyName>Aspose DNN Microsoft Word Import</friendlyName>
+                <friendlyName>Aspose .NET Word Import for DNN</friendlyName>
                 <defaultCacheTime>0</defaultCacheTime>
                 <moduleControls>
                   <moduleControl>
