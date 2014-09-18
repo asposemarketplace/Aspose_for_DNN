@@ -1,6 +1,7 @@
 <h3>Support for Aspose.Note for .NET and Visual Studio 2013 added in Aspose .NET Module Development Template for DNN</h3>
 <div class="entry-content">
 <p>Aspose .NET Module Development Template for DNN provides a quick and easy way to use module development template for DNN 7+. We are pleased to announce a new release which now supports exploring examples of our new product <a href="http://www.aspose.com/.net/onenote-component.aspx">Aspose.Note for .NET</a>. This module development template can automatically download Aspose components and seamlessly add them to your DNN module project during project creation.</p>
+<p style="text-align: center;"><a href="https://asposednn.codeplex.com/releases/view/111730" title="Free Download - Aspose .NET Module Development Template for DNN"><img alt="free download" src="http://cdn.aspose.com/Images/marketplace/free-download-icon-aspose-mp.png" title="Free Download - Aspose .NET Module Development Template for DNN"></a><a href="https://www.youtube.com/watch?v=emvDF3Kqj0E" title="Video Demo - Aspose .NET Module Development Template for DNN"><img alt="video demo" src="http://cdn.aspose.com/Images/marketplace/video-demo-icon-aspose-mp.png" title="Video Demo - Aspose .NET Module Development Template for DNN"></a><a href="https://asposednn.codeplex.com/SourceControl/latest#Aspose.DotNetNuke.Template/" title="Source Code - Aspose .NET Module Development Template for DNN"><img alt="open source" src="http://cdn.aspose.com/Images/marketplace/open-source-icon-aspose-mp.png" title="Source Code - Aspose .NET Module Development Template for DNN"></a></p>
 <p>The new improved version provides the following features:</p>
 <ul>
 <li>Supports <strong>Visual Studio 2010, 2012 and 2013.</strong></li>
@@ -9,12 +10,14 @@
 <li>Select one or more Aspose components during module creation.</li>
 <li>The latest version of the selected Aspose components are automatically downloaded and referenced in your DNN Module.</li>
 </ul>
+<center>
 <div id="attachment_16864" class="wp-caption aligncenter"><a href="http://www.aspose.com/blogs/wp-content/uploads/2014/09/aspose-dnn-supports-vs2010-vs2012-vs2013.png"> <img class="size-medium wp-image-16864" style="display: block; margin-left: auto; margin-right: auto;" title="Aspose DNN Template supports Visual Studio 2010, 2012 and 2013" src="http://www.aspose.com/blogs/wp-content/uploads/2014/09/aspose-dnn-supports-vs2010-vs2012-vs2013-300x246.png" alt="aspose dnn supports vs2010 vs2012 vs2013 300x246 Support for Aspose.Note for .NET and Visual Studio 2013 added in Aspose .NET Module Development Template for DNN" width="300" height="246" /></a>
 <p class="wp-caption-text" style="text-align: center;">Aspose DNN Template supports Visual Studio 2010, 2012 and 2013</p>
 </div>
 <div id="attachment_16867" class="wp-caption aligncenter"><a href="http://www.aspose.com/blogs/wp-content/uploads/2014/09/preview.png"> <img class="size-medium wp-image-16867" style="display: block; margin-left: auto; margin-right: auto;" title="Aspose .NET Module Development Template for DNN" src="http://www.aspose.com/blogs/wp-content/uploads/2014/09/preview-300x239.png" alt="preview 300x239 Support for Aspose.Note for .NET and Visual Studio 2013 added in Aspose .NET Module Development Template for DNN" width="300" height="239" /></a>
 <p class="wp-caption-text" style="text-align: center;">Aspose .NET Module Development Template for DNN</p>
 </div>
+</center>
 <h3>New Features</h3>
 <p>This release have the following new features</p>
 <ol>
