@@ -10,7 +10,7 @@
 <p>Installing Aspose DotNetNuke project templates is pretty easy. There are multiple ways to install: choose one of these options below.</p>
 <h3>Install manually by downloading the VSIX file from the DNN Store</h3>
 <ol>
-<li>Visit the DNN Store &ndash; <a href="http://store.dnnsoftware.com/home/product-details/aspose-dotnetnuke-module-development-template">
+<li>Visit the DNN Store &ndash; <a href="http://store.dnnsoftware.com/home/product-details/aspose-net-module-development-template-for-dnn">
 Aspose DotNetNuke Module Development Template page</a> </li><li>Click ‘Add to Cart’ and then proceed to checkout to download the VSIX file
 </li><li>Double click on the downloaded file to install the templates. </li></ol>
 <h3>Install manually by downloading from Codeplex</h3>
