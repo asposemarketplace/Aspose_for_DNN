@@ -8,7 +8,7 @@
         <h3>
           <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/Aspose%20.NET%20Module%20Development%20Template%20for%20DNN.md">Aspose .NET Module Development Template for DNN</a>
         </h3>
-        Aspose .NET Module Development Template for DNN provides a quick and easy way to use a module development template for DNN 7+ ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/Docs/Aspose%20.NET%20Module%20Development%20Template%20for%20DNN.md"> Continue reading &rarr;</a>
+        Aspose .NET Module Development Template for DNN provides a quick and easy way to use a module development template for DNN 7+ ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/Aspose%20.NET%20Module%20Development%20Template%20for%20DNN.md"> Continue reading &rarr;</a>
       </li>
       <li>
         <h3>
