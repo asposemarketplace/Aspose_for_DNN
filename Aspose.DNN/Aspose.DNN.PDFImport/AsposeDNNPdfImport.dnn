@@ -1,0 +1,71 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="AsposeDNNPdfImport" type="Module" version="01.00.01">
+      <friendlyName>Aspose .NET PDF Import for DNN</friendlyName>
+      <description>Aspose .NET PDF Import for DNN module allow users to import contents of PDF files using Aspose.Pdf</description>
+      <iconFile>Images/aspose_logo.gif</iconFile>
+      <owner>
+        <name>Aspose.com</name>
+        <organization>Aspose.com</organization>
+        <url>http://www.Aspose.com</url>
+        <email>marketplace@aspose.com</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">07.00.02</dependency>
+      </dependencies>
+
+      <components>
+
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules/AsposeDNNPdfImport</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+
+        <component type="Module">
+          <desktopModule>
+            <moduleName>Aspose .NET PDF Import for DNN</moduleName>
+            <foldername>AsposeDNNPdfImport</foldername>
+            <businessControllerClass />
+            <supportedFeatures />
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>Aspose .NET PDF Import for DNN</friendlyName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/AsposeDNNPdfImport/View.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>View</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <viePDFer>0</viePDFer>
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <name>Aspose.DNN.PdfImport.dll</name>
+              <path>bin</path>
+            </assembly>
+            <assembly>
+              <name>Aspose.Pdf.dll</name>
+              <path>bin</path>
+            </assembly>
+          </assemblies>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

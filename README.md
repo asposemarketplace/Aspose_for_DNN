@@ -6,43 +6,43 @@
     <ol>
       <li>
         <h3>
-          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20DotNetNuke%20Module%20Development%20Template.md">Aspose DotNetNuke Module Development Template</a>
+          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/Aspose%20.NET%20Module%20Development%20Template%20for%20DNN.md">Aspose .NET Module Development Template for DNN</a>
         </h3>
-        Aspose DotNetNuke Module Development Template provides a quick and easy to use Module development template for DotNetNuke 7+ with ability to automatically download selected Aspose components and seamlessly adding them to your DotNetNuke module project on the fly ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20DotNetNuke%20Module%20Development%20Template.md"> Continue reading &rarr;</a>
+        Aspose .NET Module Development Template for DNN provides a quick and easy way to use a module development template for DNN 7+ ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/Docs/Aspose%20.NET%20Module%20Development%20Template%20for%20DNN.md"> Continue reading &rarr;</a>
       </li>
       <li>
         <h3>
-          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20.NET%20Word%20Processing%20and%20PDF%20Document%20Exporter%20for%20DNN%20Module.md">Export selected DNN Pane in Aspose .NET Word Processing and PDF Document Exporter for DNN Module</a>
+          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/Aspose%20.NET%20Word%20Processing%20and%20PDF%20Document%20Exporter%20for%20DNN%20Module.md">Export selected DNN Pane in Aspose .NET Word Processing and PDF Document Exporter for DNN Module</a>
         </h3>
-        Aspose .NET Word Processing and PDF Document Exporter for DNN allow users to export online content into Word Processing or PDF documen ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20.NET%20Word%20Processing%20and%20PDF%20Document%20Exporter%20for%20DNN%20Module.md"> Continue reading &rarr;</a>
+        Aspose .NET Word Processing and PDF Document Exporter for DNN allow users to export online content into Word Processing or PDF documen ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/Aspose%20.NET%20Word%20Processing%20and%20PDF%20Document%20Exporter%20for%20DNN%20Module.md"> Continue reading &rarr;</a>
       </li>
       <li>
         <h3>
-          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20.NET%20Word%20Import%20for%20DNN%20Module.md">Import to Selected Pane in Aspose .NET Word Import for DNN Module</a>
+          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/Aspose%20.NET%20Word%20Import%20for%20DNN%20Module.md">Import to Selected Pane in Aspose .NET Word Import for DNN Module</a>
         </h3>
-        Aspose .NET Word Import for DNN Module allows developers to get/read contents of Word document without requiring any other software such as Microsoft Word or OpenOffice ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20.NET%20Word%20Import%20for%20DNN%20Module.md"> Continue reading &rarr;</a>
+        Aspose .NET Word Import for DNN Module allows developers to get/read contents of Word document without requiring any other software such as Microsoft Word or OpenOffice ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/Aspose%20.NET%20Word%20Import%20for%20DNN%20Module.md"> Continue reading &rarr;</a>
       </li>
       <li>
         <h3>
-          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20.NET%20PDF%20Import%20for%20DNN%20Module%20.md">Import to Selected Pane in Aspose .NET PDF Import for DNN Module</a>
+          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/Aspose%20.NET%20PDF%20Import%20for%20DNN%20Module%20.md">Import to Selected Pane in Aspose .NET PDF Import for DNN Module</a>
         </h3>
-        Aspose .NET PDF Import for DNN Module allows developers to get/read contents of PDF document without requiring any other software such as Adobe Acrobat or PDF reader ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Aspose%20.NET%20PDF%20Import%20for%20DNN%20Module%20.md"> Continue reading &rarr;</a>
+        Aspose .NET PDF Import for DNN Module allows developers to get/read contents of PDF document without requiring any other software such as Adobe Acrobat or PDF reader ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/Aspose%20.NET%20PDF%20Import%20for%20DNN%20Module%20.md"> Continue reading &rarr;</a>
       </li>
       <li>
         <h3>
-          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DNN%20Exchange%20Sync.md">DNN Exchange Sync – 2 Way Link between DNN Users and Microsoft Exchange Server Contacts</a>
+          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/DNN%20Exchange%20Sync.md">DNN Exchange Sync – 2 Way Link between DNN Users and Microsoft Exchange Server Contacts</a>
         </h3>
-        DNN Exchange Sync is an open source module from Aspose that links your DNN users to Microsoft Exchange Server contacts without requiring any other software ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/DNN%20Exchange%20Sync.md"> Continue reading &rarr;</a>
+        DNN Exchange Sync is an open source module from Aspose that links your DNN users to Microsoft Exchange Server contacts without requiring any other software ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/DNN%20Exchange%20Sync.md"> Continue reading &rarr;</a>
       </li>
     </ol>
     <p>&nbsp;</p>
 
     <h3>
-      <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/How%20to%20create%20DNN%20Module.md">How to create DNN module?</a>
+      <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/How%20to%20create%20DNN%20Module.md">How to create DNN module?</a>
     </h3>
     <p>
       The following detailed instructions will guide you through all the steps for creating and running a DNN module ...
-      <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/How%20to%20create%20DNN%20Module.md"> Continue reading →</a>
+      <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/How%20to%20create%20DNN%20Module.md"> Continue reading →</a>
     </p>
 
     <p>&nbsp;</p>
