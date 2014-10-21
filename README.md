@@ -34,6 +34,14 @@
         </h3>
         DNN Exchange Sync is an open source module from Aspose that links your DNN users to Microsoft Exchange Server contacts without requiring any other software ... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/DNN%20Exchange%20Sync.md"> Continue reading &rarr;</a>
       </li>
+	  
+	  <li>
+        <h3>
+          <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/Sync%20DNN%20Users%20with%20Google%20Contacts%20using%20Aspose%20.NET%20Gmail%20Sync%20for%20DNN.md">Sync DNN Users with Google Contacts using Aspose .NET Gmail Sync for DNN</a>
+        </h3>
+        Aspose .NET Gmail Sync for DNN is an open source module from Aspose that links your DNN users to Google/Gmail contacts without requiring any other software... <a href="https://github.com/asposemarketplace/Aspose_for_DNN/blob/master/Docs/Sync%20DNN%20Users%20with%20Google%20Contacts%20using%20Aspose%20.NET%20Gmail%20Sync%20for%20DNN.md"> Continue reading &rarr;</a>
+      </li>
+	  
     </ol>
     <p>&nbsp;</p>
 
