@@ -1,0 +1,19 @@
+﻿<h3>Aspose .NET Gmail Sync for DNN</h3>
+	Aspose .NET Gmail Sync for DNN is an open source module from Aspose that links your DNN users to Google/Gmail contacts without requiring any other software. It uses powerful features of Aspose.Email for .NET to allow you to easily sync your Gmail contacts and DNN users. The contact details from Gmail and DNN user profile are smartly mapped so that all the information associated with a DNN user or Gmail contact is migrated properly from one system to the other. 
+	<ul>
+	<li>Gmail server credentials are encrypted and saved in database so that you don’t have to enter them every time you use this module.</li>
+	<li>Sync all or selected Gmail contacts to DNN and vice versa.</li>
+	<li>Option to select one or more DNN roles when performing Gmail to DNN sync.</li>
+	<li>Existence of every contact/user in the destination system is checked before migration to make sure that the Sync does not create duplicate records.</li>
+	<li>The contacts migrated to Gmail are put in Other Contacts group so that you can verify and move only required ones to My Contacts.</li>
+	<li>A brief summary of the Sync process is shown upon completion.</li>
+	</ul>
+	Please check <a href="http://www.aspose.com/blogs/index.php">our blogs</a> for further updates.
+	
+	If you have any questions please feel free to contact us via <a href="mailto:marketplace@aspose.com">marketplace@aspose.com</a><br />
+	<a href=http://www.aspose.com>Aspose</a> - Your File Format APIs<br />
+<hr/>
+<div class="License">
+	<h3>About Aspose .NET Gmail Sync for DNN Module</h3>
+	<p>Aspose .NET Gmail Sync for DNN is an open source module from Aspose that links your DNN users to Google/Gmail contacts without requiring any other software. It uses powerful features of Aspose.Email for .NET to allow you to easily sync your Gmail contacts and DNN users. The contact details from Gmail and DNN user profile are smartly mapped so that all the information associated with a DNN user or Gmail contact is migrated properly from one system to the other.</p>	
+</div>
