@@ -1,6 +1,4 @@
-﻿// Copyright (c) Aspose 2002-2014. All Rights Reserved.
-
-using System;
+﻿using System;
 using DotNetNuke.Security;
 using DotNetNuke.Services.Exceptions;
 using DotNetNuke.Entities.Modules;
@@ -34,7 +32,10 @@ namespace Aspose.Modules.AsposeDotNetNukeContentExport
             try
             {
                 if (!Page.IsPostBack)
+                {
+                    SetLocalizationText();
                     LoadPanes();
+                }
             }
             catch (Exception exc) //Module failed to load
             {
@@ -42,14 +43,43 @@ namespace Aspose.Modules.AsposeDotNetNukeContentExport
             }
         }
 
+        private void SetLocalizationText()
+        {
+            WordsExportButton.CssClass = Settings["WordsExportButtonCssClass"] != null ? Settings["WordsExportButtonCssClass"].ToString() : string.Empty;
+            PdfExportButton.CssClass = Settings["PdfExportButtonCssClass"] != null ? Settings["PdfExportButtonCssClass"].ToString() : string.Empty;
+
+            if (Settings["PaneSelectionDropDownCssClass"] != null)
+            {
+                if (!string.IsNullOrEmpty(Settings["PaneSelectionDropDownCssClass"].ToString()))
+                    PanesDropDownList.CssClass = Settings["PaneSelectionDropDownCssClass"].ToString();
+            }
+        }
+
         private void LoadPanes()
         {
+            PanesDropDownList.Items.Add(new ListItem(LocalizeString("FullPage"), "dnn_full_page"));
+
             foreach (string pane in PortalSettings.ActiveTab.Panes)
             {
                 Control obj = (Control)DotNetNuke.Common.Globals.FindControlRecursiveDown(Page, pane);
 
                 PanesDropDownList.Items.Add(new ListItem(pane, obj.ClientID));
-            }            
+            }
+
+            if (Settings["DefaultPane"] != null)
+            {
+                PanesDropDownList.SelectedValue = Settings["DefaultPane"].ToString();
+            }
+
+            Session["PanesDropDown_" + TabId.ToString()] = PanesDropDownList.Items;
+
+            PanesDropDownList.Attributes.Remove("style");
+
+            if (Settings["HideDefaultPane"] != null)
+            {
+                if (Convert.ToBoolean(Settings["HideDefaultPane"].ToString()))
+                    PanesDropDownList.Attributes.Add("style", "display: none;");
+            }
         }
 
         public ModuleActionCollection ModuleActions

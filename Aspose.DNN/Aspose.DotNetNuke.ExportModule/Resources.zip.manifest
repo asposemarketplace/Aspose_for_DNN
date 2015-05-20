@@ -14,7 +14,15 @@
     </file>
     <file>
       <path />
+      <name>Settings.ascx</name>
+    </file>
+    <file>
+      <path />
       <name>View.ascx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Settings.ascx.resx</name>
     </file>
     <file>
       <path>App_LocalResources/</path>

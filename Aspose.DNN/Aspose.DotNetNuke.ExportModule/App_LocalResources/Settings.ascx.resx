@@ -117,16 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="EditModule.Text" xml:space="preserve">
-    <value>Edit Module</value>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>Settings</value>
   </data>
-  <data name="FullPage.Text" xml:space="preserve">
-    <value>Full Page</value>
+  <data name="DefaultPaneLabel.Text" xml:space="preserve">
+    <value>Default Pane e.g. ContentPane</value>
   </data>
-  <data name="PdfExportButton.Text" xml:space="preserve">
-    <value>Export to PDF</value>
+  <data name="HideDefaultPaneLabel.Text" xml:space="preserve">
+    <value>Hide pane selection DropDown</value>
   </data>
-  <data name="WordsExportButton.Text" xml:space="preserve">
-    <value>Export to Word</value>
+  <data name="PaneSelectionDropDownCssClassLabel.Text" xml:space="preserve">
+    <value>Css Class for Pane Selection DropDown</value>
+  </data>
+  <data name="PdfExportButtonCssClassLabel.Text" xml:space="preserve">
+    <value>Css Class for Export to PDF Button</value>
+  </data>
+  <data name="WordsExportButtonCssClassLabel.Text" xml:space="preserve">
+    <value>Css Class for Export to Word Button</value>
   </data>
 </root>
